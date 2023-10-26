@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/lt-galaxy');
+@import url('https://fonts.cdnfonts.com/css/octopus-game');
+/*********FONTS************/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./images/bgpiano.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'LT Galaxy', sans-serif;;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 4em;
+    text-align: center;
+	border-bottom: 0.5px solid #FFF7ED;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF7ED;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#active {
+    color: #C7F700;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+    width: 50em;
+}
+
+#description {
+    color: #FFF7ED;
+    font-size: 1em;
+    margin: 0 1em;
+}
